@@ -1,10 +1,15 @@
 .calculator {
   border-radius: 4px;
-  border: 1px solid black;
+  border: 2px solid #30302f;
   display: grid;
   grid-template-rows: 1fr 5fr;
   min-width: 240px;
   min-height: 320px;
+  box-shadow: 0 0 1em gold;
+}
+
+.display {
+  background: linear-gradient(15deg, #30302f 30%, #6f6f7b 100%);
 }
 
 .digits {
@@ -20,4 +25,16 @@
 .digits__row__five {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+}
+
+.digit__operator__common {
+  background-color: #fd9d2a;
+}
+
+.digit__operator__special {
+  background-color: #6f6f7b;
+}
+
+.digit__number {
+  background-color: #6f7476;
 }
