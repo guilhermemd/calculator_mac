@@ -5,7 +5,7 @@ function Calculator() {
   const [display, setdisplay] = useState("");
   return (
     <div className="calculator">
-      <div className="display">{display || "0"}</div>
+      <div className="display">{display || "00"}</div>
       <div className="digits">
         <div className="digits__row__one">
           <button className="digit__operator__special">AC</button>
