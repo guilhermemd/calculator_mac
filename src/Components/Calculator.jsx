@@ -3,6 +3,8 @@ import "./calculator.css";
 
 function Calculator() {
   const [display, setdisplay] = useState("");
+  //teste
+
   return (
     <div className="calculator">
       <div className="display">{display || "00"}</div>
